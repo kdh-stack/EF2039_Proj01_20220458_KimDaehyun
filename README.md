@@ -140,15 +140,17 @@ python3 src/main.py
 ```
 
 Sample run:
+```text
 === Sentiment Analysis Interactive Mode ===
 Type 'quit' to exit.
 
 Enter text: This movie was amazing!
 Label: POSITIVE, Confidence: 1.000
-
+```
 Exit with:
+```bash
 quit
-
+```
 ### ✔ Batch Mode (multiple sentences)
 
 ```bash
@@ -165,7 +167,7 @@ Sample output:
 ---
 
 ## Screenshots (Optional)
-
+```text
 Interactive mode example:
 === Sentiment Analysis Interactive Mode ===
 Type 'quit' to exit.
@@ -173,7 +175,7 @@ Type 'quit' to exit.
 Enter text: This movie was amazing!
 Label: POSITIVE, Confidence: 1.000
 (You may insert an actual screenshot image later if desired.)
-
+```
 ---
 
 ## Distribution
