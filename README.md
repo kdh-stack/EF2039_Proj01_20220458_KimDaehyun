@@ -165,19 +165,6 @@ Sample output:
 
 ---
 
-## Screenshots (Optional)
-
-Interactive mode example:
-```text
-=== Sentiment Analysis Interactive Mode ===
-Type 'quit' to exit.
-
-Enter text: This movie was amazing!
-Label: POSITIVE, Confidence: 1.000
-(You may insert an actual screenshot image later if desired.)
-```
----
-
 ## Distribution
 This project has been fully uploaded to GitHub and includes:
 - Complete source code
