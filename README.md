@@ -54,29 +54,35 @@ The goal of this project is to gain hands-on experience with the **entire AI dev
 | Output       | Logits → softmax → probability distribution  |
 | Labels       | `POSITIVE` or `NEGATIVE`                     |
 
-Example:
-- Text: "This movie was amazing!"
-- Output: POSITIVE (confidence: 1.000)
+**Example:**
+```text
+Text: "This movie was amazing!"
+Output: POSITIVE (confidence: 1.000)
+```
 
 ---
 
-## 🛠️ Environment Setup
+## Environment Setup
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/kdh-stack/EF2039_Proj01_20220458_KimDaehyun.git
 cd EF2039_Proj01_20220458_KimDaehyun
-
+```
 
 ### 2. (Optional) Create Virtual Environment
 
+```bash
 python3 -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
+source venv/bin/activate
+```
 
 ### 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 Installed packages include:
 - transformers
@@ -87,20 +93,23 @@ Installed packages include:
 
 ## Project Structure
 
+```text
 EF2039_Proj01_20220458_KimDaehyun/
 │── src/
 │    ├── main.py             # CLI application
-│    └── model_utils.py      # Helper functions (model load, analysis)
+│    └── model_utils.py      # Model loading, inference utilities
 │
 ├── requirements.txt
 ├── README.md
 └── ...
+```
 
 ---
 
 ## Pipeline Design
 
 The overall pipeline of the application:
+```text
 User Input
       ↓
 Tokenizer (DistilBERT)
@@ -110,6 +119,7 @@ Model Inference (logits → softmax)
 Sentiment Classification
       ↓
 CLI Output (label + confidence)
+```
 
 Step-by-step:
 - Receive input text from the user
@@ -125,7 +135,9 @@ Step-by-step:
 
 ### ✔ Interactive Mode (recommended)
 
+```bash
 python3 src/main.py
+```
 
 Sample run:
 === Sentiment Analysis Interactive Mode ===
@@ -139,7 +151,9 @@ quit
 
 ### ✔ Batch Mode (multiple sentences)
 
+```bash
 python3 src/main.py --text "I love this movie" "This was boring"
+```
 
 Sample output:
 - Input: I love this movie
