@@ -167,8 +167,9 @@ Sample output:
 ---
 
 ## Screenshots (Optional)
-```text
+
 Interactive mode example:
+```text
 === Sentiment Analysis Interactive Mode ===
 Type 'quit' to exit.
 
