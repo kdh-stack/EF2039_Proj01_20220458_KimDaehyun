@@ -101,7 +101,6 @@ EF2039_Proj01_20220458_KimDaehyun/
 │
 ├── requirements.txt
 ├── README.md
-└── ...
 ```
 
 ---
