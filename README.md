@@ -100,7 +100,7 @@ EF2039_Proj01_20220458_KimDaehyun/
 │    └── model_utils.py      # Model loading, inference utilities
 │
 ├── requirements.txt
-├── README.md
+└── README.md
 ```
 
 ---
